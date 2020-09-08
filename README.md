@@ -6,7 +6,7 @@ Esse repositório contém conteúdo sobre Ruby e exercícios pra fixar o conheci
 
 Esse projeto não é necessário instalar nenhum framework ou linguagem.
 
-<h3>Linguagens utilizada</h3>
+<h3>Linguagem utilizada</h3>
 <blockquote><b>Ruby</b></blockquote>
 
 <br><h2>Autora</h2>
