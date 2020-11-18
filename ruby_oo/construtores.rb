@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Pessoa
   attr_accessor :nome
   attr_accessor :idade
@@ -7,22 +9,22 @@ class Pessoa
     @idade = idade
   end
 
-  def gritar(texto = "Grrrhhhhh!")
+  def gritar(texto = 'Grrrhhhhh!')
     "Gritando... #{texto}"
   end
 
-  def agradecer(texto = "Obrigado!")
+  def agradecer(texto = 'Obrigado!')
     texto
   end
 end
 
 #######################
 
-pessoa1 = Pessoa.new("Jackson Pires", 30)
-pessoa2 = Pessoa.new("Joao", 34)
+pessoa1 = Pessoa.new('Jackson Pires', 30)
+pessoa2 = Pessoa.new('Joao', 34)
 
 puts pessoa1.nome
-pessoa1.nome = "Jose"
+pessoa1.nome = 'Jose'
 puts pessoa1.nome
 
 puts pessoa1.idade

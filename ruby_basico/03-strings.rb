@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 # Pra aspas simples
 v1 = 'Bruna'
-puts "Hello!" + v1
+puts 'Hello!' + v1
 
 # Pra aspas simples ela serve pra interpolação de variavéis
-v2 = "Bruna"
+v2 = 'Bruna'
 
 puts "Beleza? #{v2}"
 

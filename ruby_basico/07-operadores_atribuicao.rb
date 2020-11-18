@@ -1,22 +1,24 @@
+# frozen_string_literal: true
+
 # variável recebe...
 a = 2
 
 # varivável recebe o valor + um valor a mais
 a += 4 # a = a + 4
 
-#para remover
+# para remover
 a -= 4 # a = a - 4
 
-#para multiplicar
+# para multiplicar
 a *= 4 # a = a * 4
 
-#para dividir
+# para dividir
 a /= 4 # a = a / 4
 
-#modulo (resto)
+# modulo (resto)
 a %= 4 # a = a % 4
 
-#exponenziação
+# exponenziação
 a **= 4 # a = a ** 4
 
 puts a

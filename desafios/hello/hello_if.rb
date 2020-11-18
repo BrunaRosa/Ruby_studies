@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # 1º Desafio Hello
 
 def hello
