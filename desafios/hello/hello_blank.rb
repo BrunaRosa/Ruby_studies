@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # 2º Desafio Hello : Blank name
 
 require 'active_support'
@@ -18,8 +20,8 @@ def valid_name
   end
 end
 
-def msg_hello 
-  @valid_name = "#{@nome}"
+def msg_hello
+  @valid_name = @nome.to_s
   if @idade < 12
     puts "Oxi, vai brincar na rua! Bem-vindo, #{valid_name}!"
   elsif @idade >= 12 && @idade <= 18

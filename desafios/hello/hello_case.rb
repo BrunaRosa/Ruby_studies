@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # 3º Desafio Hello : case
 
 require 'active_support'
@@ -18,8 +20,8 @@ def valid_name
   end
 end
 
-def msg_hello 
-  @valid_name = "#{@nome}"
+def msg_hello
+  @valid_name = @nome.to_s
 
   case @idade
   when 0..12
